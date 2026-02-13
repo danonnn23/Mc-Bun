@@ -6,9 +6,9 @@ function NavBar() {
         <>
             <div className="nav-container">
                 <div className='logo-section'>
-                    <button>
+                    <NavLink to="/home" className="logo-btn">
                         <img className='logo-pic' src={logo} alt="Logo" />
-                    </button>
+                    </NavLink>
                 </div>
                 <nav className='nav-bar'>
                     <ul>
