@@ -1,5 +1,6 @@
 import HeroSectionBanner from '../assets/Hero_section_banner.png';
 import Features from '../components/Features.jsx'
+import { NavLink } from 'react-router-dom';
 
 function Home() {
     const features = [
@@ -44,7 +45,10 @@ function Home() {
                 <section className='features-section'>
                     <Features items={features}></Features>
                 </section>
-                <section></section>
+                <section className='call-to-action-section'>
+                    <h2 className='call-to-action-text unselectable'>READY TO UNLEASH THE FLAVOR?</h2>
+                    <button className='call-to-action-btn'><NavLink to="/menu">Go to the menu</NavLink></button>
+                </section>
             </div>
         </>
     )

@@ -1,4 +1,6 @@
 :root {
     --mcbun-red: hsl(358, 67%, 43%);
     --mcbun-yellow: hsl(42, 93%, 55%);
+    --mcbun-yellow-hover: hsl(42, 93%, 47%);
+    --primary-clr: hsl(0, 0%, 90%);
 }
