@@ -1,0 +1,284 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Double Cheeseburger",
+      "price": 5.49,
+      "category": "burgers",
+      "image": "./assets/Double_cheeseburger.png",
+      "description": "Two 100% pure beef patties with two slices of melty American cheese, topped with pickles, onions, ketchup, and mustard on a toasted bun.",
+      "weight": 163,
+      "calories": 475
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "price": 2.49,
+      "category": "burgers",
+      "image": "./assets/Burger.png",
+      "description": "The classic McBun original: a juicy beef patty seasoned with a pinch of salt and pepper, topped with a tangy pickle, chopped onions, ketchup, and mustard.",
+      "weight": 96,
+      "calories": 249
+    },
+    {
+      "id": 3,
+      "name": "Cheeseburger",
+      "price": 2.99,
+      "category": "burgers",
+      "image": "./assets/Cheeseburger.png",
+      "description": "Our signature beef patty topped with a slice of melted American cheese, pickles, onions, and our classic condiments.",
+      "weight": 108,
+      "calories": 298
+    },
+    {
+      "id": 4,
+      "name": "Chicken burger",
+      "price": 4.25,
+      "category": "burgers",
+      "image": "./assets/Chicken_burger.png",
+      "description": "Crispy chicken patty topped with shredded lettuce and creamy mayonnaise, served on a perfectly toasted bun.",
+      "weight": 180,
+      "calories": 448
+    },
+    {
+      "id": 5,
+      "name": "Big Bun Single",
+      "price": 6.15,
+      "category": "burgers",
+      "image": "./assets/Big_bun_single.png",
+      "description": "A larger-than-life beef patty with premium toppings, fresh lettuce, and our secret Big Bun sauce on a sesame seed bun.",
+      "weight": 245,
+      "calories": 625
+    },
+    {
+      "id": 6,
+      "name": "Big Bun Double",
+      "price": 7.85,
+      "category": "burgers",
+      "image": "./assets/Big_bun_double.png",
+      "description": "Double the beef, double the flavor. Two large patties stacked with extra cheese, fresh greens, and signature sauce.",
+      "weight": 335,
+      "calories": 880
+    },
+    {
+      "id": 7,
+      "name": "Chicken nuggets, 4 pcs",
+      "price": 1.99,
+      "category": "chicken",
+      "image": "./assets/Chicken_nuggets_4pcs.png",
+      "description": "Four bite-sized pieces of tender chicken, breaded and fried until golden and crispy.",
+      "weight": 68,
+      "calories": 176
+    },
+    {
+      "id": 8,
+      "name": "Chicken nuggets, 6 pcs",
+      "price": 2.85,
+      "category": "chicken",
+      "image": "./assets/Chicken_nuggets_6pcs.png",
+      "description": "Six pieces of white-meat chicken nuggets. Perfect for a quick snack or side.",
+      "weight": 100,
+      "calories": 265
+    },
+    {
+      "id": 9,
+      "name": "Chicken nuggets, 9 pcs",
+      "price": 3.99,
+      "category": "chicken",
+      "image": "./assets/Chicken_nuggets_9pcs.png",
+      "description": "Nine crispy nuggets made with juicy chicken breast, ready to be dipped in your favorite sauce.",
+      "weight": 150,
+      "calories": 397
+    },
+    {
+      "id": 10,
+      "name": "Chicken nuggets, 20 pcs",
+      "price": 6.99,
+      "category": "chicken",
+      "image": "./assets/Chicken_nuggets_20pcs.png",
+      "description": "Our shareable 20-piece pack. Great for parties or the ultimate chicken lover.",
+      "weight": 340,
+      "calories": 882
+    },
+    {
+      "id": 11,
+      "name": "Chicken strips, 3 pcs",
+      "price": 4.50,
+      "category": "chicken",
+      "image": "./assets/Chicken_strips_3pcs.png",
+      "description": "Three succulent chicken breast strips, seasoned and breaded for a satisfying crunch.",
+      "weight": 80,
+      "calories": 200
+    },
+    {
+      "id": 12,
+      "name": "Chicken strips, 6 pcs",
+      "price": 7.99,
+      "category": "chicken",
+      "image": "./assets/Chicken_strips_6pcs.png",
+      "description": "Six premium chicken strips, crispy on the outside and tender on the inside.",
+      "weight": 160,
+      "calories": 400
+    },
+    {
+      "id": 13,
+      "name": "Chicken strips, 12 pcs",
+      "price": 14.50,
+      "category": "chicken",
+      "image": "./assets/Chicken_strips_12pcs.png",
+      "description": "The ultimate family-sized chicken strip bucket. 12 pieces of pure crispy joy.",
+      "weight": 320,
+      "calories": 800
+    },
+    {
+      "id": 14,
+      "name": "French fries large",
+      "price": 3.25,
+      "category": "french fries",
+      "image": "./assets/French_fries_large.png",
+      "description": "A large portion of our world-famous fries, cut from whole potatoes and served hot and salty.",
+      "weight": 120,
+      "calories": 434
+    },
+    {
+      "id": 15,
+      "name": "French fries medium",
+      "price": 2.50,
+      "category": "french fries",
+      "image": "./assets/French_fries_medium.png",
+      "description": "The perfect middle ground. Crispy, golden, and delicious medium-sized fries.",
+      "weight": 90,
+      "calories": 330
+    },
+    {
+      "id": 16,
+      "name": "French fries small",
+      "price": 1.75,
+      "category": "french fries",
+      "image": "./assets/French_fries_small.png",
+      "description": "Our classic golden fries in a snackable small size.",
+      "weight": 60,
+      "calories": 231
+    },
+    {
+      "id": 17,
+      "name": "Cola small",
+      "price": 1.50,
+      "category": "drinks",
+      "image": "./assets/Cola_small.png",
+      "description": "Refreshing and ice-cold Coca-Cola Classic in a 250ml cup.",
+      "weight": 250,
+      "calories": 102
+    },
+    {
+      "id": 18,
+      "name": "Cola medium",
+      "price": 1.99,
+      "category": "drinks",
+      "image": "./assets/Cola_medium.png",
+      "description": "The perfect 400ml pairing for any meal. Crisp, cold, and refreshing.",
+      "weight": 400,
+      "calories": 163
+    },
+    {
+      "id": 19,
+      "name": "Cola large",
+      "price": 2.45,
+      "category": "drinks",
+      "image": "./assets/Cola_large.png",
+      "description": "A large 500ml icy cold beverage to satisfy your thirst.",
+      "weight": 500,
+      "calories": 204
+    },
+    {
+      "id": 20,
+      "name": "Water small",
+      "price": 1.25,
+      "category": "drinks",
+      "image": "./assets/Water_small.png",
+      "description": "Pure and clean still mineral water for healthy hydration (250ml).",
+      "weight": 250,
+      "calories": 0
+    },
+    {
+      "id": 21,
+      "name": "Water large",
+      "price": 1.95,
+      "category": "drinks",
+      "image": "./assets/Water_large.png",
+      "description": "Pure and clean still mineral water (500ml).",
+      "weight": 500,
+      "calories": 0
+    },
+    {
+      "id": 22,
+      "name": "Ketchup",
+      "price": 0.50,
+      "category": "sauces",
+      "image": "./assets/Ketchup.png",
+      "description": "Sweet and tangy tomato ketchup made from sun-ripened tomatoes.",
+      "weight": 28,
+      "calories": 29
+    },
+    {
+      "id": 23,
+      "name": "Curry sauce",
+      "price": 0.50,
+      "category": "sauces",
+      "image": "./assets/Curry_sauce.png",
+      "description": "A mildly spicy curry dipping sauce with a touch of sweetness.",
+      "weight": 28,
+      "calories": 42
+    },
+    {
+      "id": 24,
+      "name": "Cheese sauce",
+      "price": 0.50,
+      "category": "sauces",
+      "image": "./assets/Cheese_sauce.png",
+      "description": "Rich and creamy melted cheese sauce, perfect for fries or nuggets.",
+      "weight": 24,
+      "calories": 89
+    },
+    {
+      "id": 25,
+      "name": "Mayonnaise",
+      "price": 0.50,
+      "category": "sauces",
+      "image": "./assets/Mayonnaise.png",
+      "description": "Classic thick and creamy mayonnaise.",
+      "weight": 25,
+      "calories": 119
+    },
+    {
+      "id": 26,
+      "name": "Mustard sauce",
+      "price": 0.50,
+      "category": "sauces",
+      "image": "./assets/Mustard_sauce.png",
+      "description": "Traditional tangy mustard sauce with a bold flavor.",
+      "weight": 25,
+      "calories": 55
+    },
+    {
+      "id": 27,
+      "name": "BBQ sauce",
+      "price": 0.50,
+      "category": "sauces",
+      "image": "./assets/BBQ_sauce.png",
+      "description": "Smoky, sweet BBQ sauce—the ultimate companion for chicken strips.",
+      "weight": 25,
+      "calories": 38
+    },
+    {
+      "id": 28,
+      "name": "Sweet chili sauce",
+      "price": 0.50,
+      "category": "sauces",
+      "image": "./assets/Sweet_chili_sauce.png",
+      "description": "A zesty dip featuring a blend of sweet honey and mild red chili peppers.",
+      "weight": 40,
+      "calories": 59
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+/* 1. Видаляємо всі відступи та встановлюємо box-sizing */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Покращуємо плавність скролу (як на дорогих сайтах) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 3. Прибираємо стандартні стилі списків (для меню та категорій) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 4. Налаштовуємо посилання, щоб вони не синіли самі по собі */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 5. Картинки: робимо їх слухняними */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* 6. Форми та кнопки: прибираємо браузерний "дефолт" */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* 7. Базовий колір фону та шрифт (заміни на свій, якщо треба) */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
