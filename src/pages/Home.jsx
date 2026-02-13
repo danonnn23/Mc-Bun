@@ -44,6 +44,7 @@ function Home() {
                 <section className='features-section'>
                     <Features items={features}></Features>
                 </section>
+                <section></section>
             </div>
         </>
     )

@@ -23,7 +23,8 @@
 }
 
 .nav-btn {
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.2em;
     color: #333;
     transition: all 0.3s ease;
     position: relative;
