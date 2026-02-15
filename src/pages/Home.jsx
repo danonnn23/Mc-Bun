@@ -1,6 +1,7 @@
 import HeroSectionBanner from '../assets/Hero_section_banner.png';
 import Features from '../components/Features.jsx'
 import { NavLink } from 'react-router-dom';
+import Footer from '../components/Footer.jsx'
 
 function Home() {
     const features = [
@@ -38,18 +39,19 @@ function Home() {
 
     return (
         <>
-            <div className='home-container'>
-                <section className="hero-section">
-                    <img src={HeroSectionBanner} alt="Hero section banner" />
+            <main className='home-container'>
+              <div className='home-container__responsive-grid'>
+                <section className='cmp-hero-section'>
+                  
                 </section>
-                <section className='features-section'>
-                    <Features items={features}></Features>
+                <section className='cmp-features-section'>
+
                 </section>
-                <section className='call-to-action-section'>
-                    <h2 className='call-to-action-text unselectable'>READY TO UNLEASH THE FLAVOR?</h2>
-                    <button className='call-to-action-btn'><NavLink to="/menu">Go to the menu</NavLink></button>
+                <section className='cmp-call-to-action-section'>
+
                 </section>
-            </div>
+              </div>
+            </main>
         </>
     )
 }

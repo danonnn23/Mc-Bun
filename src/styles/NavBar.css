@@ -1,76 +1,76 @@
-.nav-container {
+/* Весь хедер на 100% ширини, щоб колір фону йшов від краю до краю */
+.cmp-global-header {
     width: 100%;
-    height: 100px;
-    border-bottom: 1px solid hsl(0, 0%, 90%);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    background-color: #fff; /* або твій колір */
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.25); /* коміксний стиль */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 10px;   
 }
 
-.nav-bar ul {
+.cmp-global-header__desktop-nav 
+.cmp-header__container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.cmp-global-header__desktop-nav 
+.cmp-header__logo {
+    width: 100px;
+}
+
+.cmp-global-header__desktop-nav
+.cmp-header__nav {
+    display: flex;
+    align-items: center;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.cmp-global-header__desktop-nav
+.cmp-navigation__group {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
 }
 
-.nav-bar {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3em;
-}
-
-.nav-btn {
-    font-weight: 700;
-    font-size: 1.2em;
-    color: #333;
+.cmp-global-header__desktop-nav
+.cmp-navigation__link {
     transition: all 0.3s ease;
     position: relative;
-    width: max-content;
 }
 
-.nav-btn::after {
+.cmp-global-header__desktop-nav
+.cmp-navigation__link.active,
+.cmp-global-header__desktop-nav
+.cmp-navigation__link:hover {
+    color: var(--mcbun-red);
+}
+
+.cmp-global-header__desktop-nav
+.cmp-navigation__link::after {
     content: "";
-    background: var(--mcbun-red);
-    height: 2px;
-    width: 0;
     position: absolute;
-    bottom: 0;
     left: 50%;
-    border-radius: 100px;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background-color: var(--mcbun-red);
     transition: all 0.3s ease;
 }
 
-.nav-btn:hover::after {
+.cmp-global-header__desktop-nav
+.cmp-navigation__link.active::after,
+.cmp-global-header__desktop-nav
+.cmp-navigation__link:hover::after {
     left: 0;
     width: 100%;
 }
 
-.nav-btn:hover {
-    color: var(--mcbun-red) !important;
-    transform: translateY(-2px);
-}
-
-.nav-btn.active {
-    color: var(--mcbun-red) !important;
-}
-
-.nav-btn.active:after {
-    left: 0;
-    width: 100%;
-}
-
-.logo-pic {
-    width: 90px;
-}
-
-.logo-section {
-    display: flex;
-    align-items: center;
-}
-
-.logo-section .logo-btn {
-    margin-left: 20px;
+.cmp-global-header__desktop-nav
+.cmp-navigation {
+    margin-left: auto;
 }

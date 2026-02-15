@@ -10,6 +10,8 @@
 /* 2. Покращуємо плавність скролу (як на дорогих сайтах) */
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
 }
 
 /* 3. Прибираємо стандартні стилі списків (для меню та категорій) */
@@ -61,4 +63,9 @@ body {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;         /* Стандарт для сучасних браузерів */
+}
+
+/* Для Chrome, Safari та нових версій Edge */
+::-webkit-scrollbar {
+    display: none;
 }
