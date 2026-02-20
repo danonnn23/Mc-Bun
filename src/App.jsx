@@ -4,6 +4,7 @@ import Menu from './pages/Menu.jsx'
 import About from './pages/About.jsx'
 import Delivery from './pages/Delivery.jsx'
 import NavBar from "./components/NavBar.jsx"
+import Footer from "./components/Footer.jsx"
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/delivery" element={<Delivery />} />
             </Routes>
+            <Footer></Footer>
         </>
     )
 }

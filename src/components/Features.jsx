@@ -1,4 +1,3 @@
-
 const Features = ({ items }) => {
   return (
     <div className="features-container">

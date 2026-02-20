@@ -3,5 +3,7 @@
     --mcbun-yellow: hsl(42, 93%, 55%);
     --mcbun-yellow-hover: hsl(42, 93%, 47%);
     --primary-clr: hsl(0, 0%, 90%);
+    --secondary-clr: hsl(0, 0%, 75%);
     --dark-clr: hsl(0, 0%, 25%);
+    --primary-bg: hsl(0, 0%, 40%);
 }

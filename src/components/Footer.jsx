@@ -11,6 +11,8 @@ const Footer = () => {
         <nav className="footer-nav">
           <NavLink to="/home">HOME</NavLink>
           <NavLink to="/menu">MENU</NavLink>
+          <NavLink to="/about">ABOUT</NavLink>
+          <NavLink to="/delivery">DELIVERY</NavLink>
         </nav>
         <div className="footer-bottom">
           <p>MADE WITH POW! BY Danylo Tolochko</p>

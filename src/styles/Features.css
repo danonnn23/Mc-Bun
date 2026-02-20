@@ -4,12 +4,25 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px;
     justify-content: center;
+    padding: 20px 0;
 }
 
 .feature-card {
     padding: 2em;
-    border: 1px solid rgb(75, 82, 92);
+    border: 2px solid #000;
     border-radius: 10px;
-    background-color: var(--mcbun-yellow);
     text-align: center;
+    transition: transform 0.4s ease, opacity 0.4s ease, filter 0.4s ease;
+    cursor: pointer;
+}
+
+.features-container:hover .feature-card {
+    transform: scale(0.9);
+}
+
+.features-container .feature-card:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    z-index: 10;
+    box-shadow: 10px 10px 0px #000;
 }

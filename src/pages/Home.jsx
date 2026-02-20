@@ -1,7 +1,6 @@
 import HeroSectionBanner from '../assets/Hero_section_banner.png';
 import Features from '../components/Features.jsx'
 import { NavLink } from 'react-router-dom';
-import Footer from '../components/Footer.jsx'
 
 function Home() {
     const features = [
@@ -42,13 +41,15 @@ function Home() {
             <main className='home-container'>
               <div className='home-container__responsive-grid'>
                 <section className='cmp-hero-section'>
-                  
+                  <img className='cmp-hero-section__banner' src={HeroSectionBanner} alt="" />
                 </section>
                 <section className='cmp-features-section'>
-
+                  <Features items={features}></Features>
                 </section>
                 <section className='cmp-call-to-action-section'>
-
+                  <h2 className='cmp-cta__title'>READY TO UNLEASH THE FLAVOR?</h2>
+                  <p className='cmp-cta__subtitle'>Your stomach is calling for a hero. Don't keep it waiting!</p>
+                  <NavLink to="/menu" className="cmp-cta__btn">TO THE MENU!</NavLink>
                 </section>
               </div>
             </main>
