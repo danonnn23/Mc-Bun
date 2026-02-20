@@ -3,18 +3,22 @@
   width: 100%;
   background-color: var(--dark-clr);
   color: #fff;
-  padding: 40px 10%;
+  padding: 40px 6%;
   border-top: 5px solid var(--mcbun-red);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .footer-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .footer-nav {
   display: flex;
   flex-direction: column;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: center;
 }
