@@ -280,5 +280,13 @@
       "weight": 40,
       "calories": 59
     }
+  ],
+  "category": [
+    { "id": "all", "label": "ALL", "img": "./src/assets/All_category_pic.png"},
+    { "id": "burgers", "label": "Burgers", "img": "./src/assets/Big_bun_double.png"},
+    { "id": "chicken", "label": "Chicken", "img": "./src/assets/Chicken_nuggets_9pcs.png"},
+    { "id": "french_fries", "label": "French fires", "img": "./src/assets/French_fries_large.png"},
+    { "id": "drinks", "label": "Drinks", "img": "./src/assets/Cola_large.png"},
+    { "id": "sauces", "label": "Sauces", "img": "./src/assets/Sauces_category_pic.png"}
   ]
 }

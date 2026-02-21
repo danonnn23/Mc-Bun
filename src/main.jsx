@@ -7,6 +7,7 @@ import './styles/NavBar.css'
 import './styles/Home.css'
 import './styles/Features.css'
 import './styles/Footer.css'
+import './styles/Menu.css'
 import { BrowserRouter } from 'react-router-dom';
 
 const container = document.getElementById('root');
